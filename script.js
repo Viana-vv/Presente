@@ -41,15 +41,16 @@
 
 
 const images = [
-'img/img-(1).jpeg',
-'img/img-(2).jpeg',
-'img/img-(3).jpeg',
-'img/img-(4).jpeg',
-'img/img-(5).jpeg',
-'img/img-(6).jpeg',
-'img/img-(7).jpeg',
-'img/img-(8).jpeg',
-'img/img-(9).jpeg',
+  'img/img.jpeg',
+'img/img1.jpeg',
+'img/img2.jpeg',
+'img/img3.jpeg',
+'img/img4.jpeg',
+'img/img5.jpeg',
+'img/img6.jpeg',
+'img/img7.jpeg',
+'img/img8.jpeg',
+'img/img9.jpeg'
 ];
 
 const segments = 34;
