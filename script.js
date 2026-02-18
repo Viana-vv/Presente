@@ -41,7 +41,7 @@
 
 
 const images = [
-  'Img/img.jpeg',
+'Img/img.jpeg',
 'Img/img1.jpeg',
 'Img/img2.jpeg',
 'Img/img3.jpeg',
@@ -49,7 +49,6 @@ const images = [
 'Img/img5.jpeg',
 'Img/img6.jpeg',
 'Img/img7.jpeg',
-'Img/img8.jpeg',
 'Img/img9.jpeg'
 ];
 
