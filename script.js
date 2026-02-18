@@ -39,18 +39,17 @@
     setInterval(atualizarContador, 1000);
     atualizarContador();
 
-    /* ========= CONFIG IGUAL AO REACT ========= */
 
 const images = [
-'img/img (1).jpeg',
-'img/img (2).jpeg',
-'img/img (3).jpeg',
-'img/img (4).jpeg',
-'img/img (5).jpeg',
-'img/img (6).jpeg',
-'img/img (7).jpeg',
-'img/img (8).jpeg',
-'img/img (9).jpeg',
+'img/img-(1).jpeg',
+'img/img-(2).jpeg',
+'img/img-(3).jpeg',
+'img/img-(4).jpeg',
+'img/img-(5).jpeg',
+'img/img-(6).jpeg',
+'img/img-(7).jpeg',
+'img/img-(8).jpeg',
+'img/img-(9).jpeg',
 ];
 
 const segments = 34;
