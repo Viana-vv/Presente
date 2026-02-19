@@ -7,7 +7,7 @@
     }
 body {
   margin: 0;
-  overflow: hidden;
+ 
 background-image: image-set( url("Img/background.webp") 
 type("image/webp") ); 
 background-repeat: no-repeat; 
@@ -17,15 +17,14 @@ background-size: cover; /* para preencher toda a tela */
       font-family: Arial, sans-serif;
       text-align: center;
       margin-top: 50px;
-       overscroll-behavior: none;
-  touch-action: none;
+
 }
 h1{
       color: rgb(0, 0, 0);
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 
 .sphere-root {
@@ -127,7 +126,6 @@ h1{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: 10%;
     width:80% ;
       padding: 40px;
   position: relative;
@@ -142,6 +140,33 @@ h1{
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
 }
+
+.motivos{
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+text-align: center;
+width: 80%
+}
+.motivos img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%
+}
+.motivos li{
+  list-style: none;
+   font-family: "Sacramento", cursive;
+  font-style: normal;
+  font-size: 20px;
+}
+.motivos ul{
+  columns: 2; -webkit-columns: 2; -moz-columns: 2;
+ 
+}
+
+
 @media (max-aspect-ratio: 9/16) {
   .sphere-root {
     --viewer-pad: 24px;
@@ -176,4 +201,36 @@ h1{
   font-style: normal;
   font-size: 10vw;
 }
+ #contador {
+  padding: 10px;
+      font-size: 1.0em;
+         color: rgb(0, 0, 0);
+  font-family: "Bungee", sans-serif;
+  font-style: normal;
+    }
+.motivos{
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+text-align: center;
+width: 100%;
+margin-top: 20px;
 }
+.motivos img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%
+}
+.motivos h1{
+  font-size: large;
+}
+.motivos li{
+  list-style: none;
+   font-family: "Sacramento", cursive;
+  font-style: normal;
+  font-size: 10px;
+}
+  }
