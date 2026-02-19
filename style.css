@@ -5,9 +5,20 @@
   font-family: "Bungee", sans-serif;
   font-style: normal;
     }
+    html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
- 
+  width: 100%;
+  max-width: 100%;
 background-image: image-set( url("Img/background.webp") 
 type("image/webp") ); 
 background-repeat: no-repeat; 
@@ -17,6 +28,8 @@ background-size: cover; /* para preencher toda a tela */
       font-family: Arial, sans-serif;
       text-align: center;
       margin-top: 50px;
+        overflow-x: hidden;
+  overflow-y: auto;
 
 }
 h1{
@@ -29,7 +42,7 @@ h1{
 
 .sphere-root {
   position: relative;
-  width: 100vw;
+  width: 100%;
  min-height: 100vh;
   --radius: 520px;
   --viewer-pad: 72px;
@@ -38,7 +51,7 @@ h1{
   --rot-x: calc((360deg / var(--segments)) / 2);
   --item-width: calc(var(--circ) / var(--segments));
   --item-height: calc(var(--circ) / var(--segments));
-
+overflow: hidden;
 }
 
 .sphere-root * {
@@ -346,7 +359,7 @@ height: 50px;
   }
 
   .carta {
-    width: 80%;
+    width: 100%;
     padding: 30px 20px;
   }
 
@@ -364,6 +377,9 @@ height: 50px;
   }
 }
 @media (max-width: 768px) {
+    .sphere-root {
+
+  }
   .item {
     width: calc(var(--item-width) * 1.6);
     height: calc(var(--item-height) * 1.6);
