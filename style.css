@@ -142,13 +142,19 @@ h1{
 }
 
 .motivos{
-  background-color: #ffffff;
+ background-image: image-set( url("Img/background2.png") 
+type("image/png") ); 
+background-repeat: no-repeat; 
+background-size: cover; /* para preencher toda a tela */
+ background-position: center;
   color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 text-align: center;
-width: 80%
+width: 80%;
+align-items: center;
+margin-top: 2vw;
 }
 .motivos img {
   width: 300px;
@@ -209,7 +215,7 @@ width: 80%
   font-style: normal;
     }
 .motivos{
-  background-color: #ffffff;
+  
   color: black;
   display: flex;
   flex-direction: row;
@@ -230,7 +236,7 @@ margin-top: 20px;
 .motivos li{
   list-style: none;
    font-family: "Sacramento", cursive;
-  font-style: normal;
+  font-style: bold;
   font-size: 10px;
 }
   }
